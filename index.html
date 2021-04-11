@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>
+            COVID API
+        </title>
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+    <body>
+        <center><h1>COVID - API</h1></center>
+        <div id="form1">
+            <form onsubmit="return false">
+              <label for="country"><b>Country:</b></label><br>
+              <input type="text" id="country" name="country" placeholder="Country..." required><br>
+          
+              <label for="startdate"><b>Starting Date:</b></label><br>
+              <input type="date" id="start" name="startdate" required><br>
+
+              <label for="enddate"><b>End Date:</b></label><br>
+              <input type="date" id="end" name="enddate" required><br>
+            
+              <input type="submit" id="btn" value="Submit">
+            </form>
+        </div>
+          <div id="outputdiv">
+
+          </div>
+          <script src="scripts/script.js"></script>
+    </body>
+</html>
